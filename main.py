@@ -8,7 +8,7 @@ import math
 root=ThemedTk(theme="equilux")
 
 root.geometry("500x600")
-root.title("Calculator")
+root.title("Calcify")
 root.resizable(False,False)
 style=ttk.Style(root)
 style.configure("TButton",
