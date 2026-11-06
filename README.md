@@ -4,15 +4,25 @@ A desktop calculator built with Python and Tkinter, featuring a customized dark 
 
 ## ✨ Features
 
-- **Basic Arithmetic:** Addition, subtraction, multiplication and division.
-- **Modulo Operation:** Calculate remainders using `%`.
-- **Parentheses:** Automatic opening and closing bracket insertion.
-- **Operator Precedence:** Evaluates expressions according to mathematical precedence.
-- **AST-Based Evaluation:** Uses Python's `ast` module instead of unsafe `eval()`.
-- **Error Handling:** Handles invalid expressions, unsupported values and division by zero.
-- **Cursor-Aware Backspace:** Deletes the character immediately before the cursor.
-- **Sound Effects:** Different sound effects for numbers, clearing, backspace and calculation.
-- **Custom UI:** Dark theme with individually styled buttons and interactive colors.
+Basic Arithmetic: Addition (+), subtraction (-), multiplication (*), and division (/).
+
+Power Operations: Calculate exponents using the ** operator (e.g., 2**3 = 8).
+
+Modulo: Supports modulo operations (%).
+
+Parentheses: Supports expressions with brackets for controlling calculation order.
+
+Automatic Bracket Handling: Automatically inserts closing brackets where appropriate.
+
+Cursor-Aware Backspace: Deletes characters based on the current cursor position.
+
+AST-Based Evaluation: Uses Python's Abstract Syntax Tree to evaluate expressions without relying on unsafe eval().
+
+Error Handling: Handles invalid expressions, division by zero, and unsupported operations.
+
+Sound Effects: Provides audio feedback for calculator interactions.
+
+Dark Theme: Features a customized dark interface.
 
 ## 🛠️ Technologies Used
 
