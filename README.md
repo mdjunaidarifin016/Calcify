@@ -91,14 +91,6 @@ The custom recursive evaluator supports selected AST nodes and operators:
 
 Unsupported expressions and values are rejected.
 
-## 📸 Screenshots
-
-Add your calculator screenshot here.
-
-```markdown
-![Calculator Screenshot](screenshots/calculator.png)
-```
-
 ## 📚 What I Learned
 
 Building this project helped me practise:
